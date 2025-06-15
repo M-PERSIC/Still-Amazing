@@ -8,7 +8,7 @@ My setup involves manually sending a POST request via the [HTTP app](https://git
 
 As an example on how to set up the HTTP app:
 
-![settings.png](./assets/settings.png)
+![settings](./assets/settings.png)
 
 ## License
 
