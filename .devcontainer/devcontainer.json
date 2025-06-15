@@ -1,0 +1,12 @@
+{
+    "features": {
+        "ghcr.io/devcontainers/features/go:1": {}
+    },
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "bierner.markdown-preview-github-styles"
+            ]
+        }
+    }
+}

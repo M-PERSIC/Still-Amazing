@@ -1,0 +1,15 @@
+name: Still Amazing!
+on: 
+  repository_dispatch:
+    types: [still-amazing]
+jobs:
+  build:
+    runs-on: ubuntu-24.04
+    steps:
+      - uses: actions/checkout@v4
+      - name: Setup Go
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.24'
+      - name: Append to file
+        run: go run ./main.go
